@@ -1,6 +1,6 @@
 #include <time.h>
 /**
- * main - generatr random numbers to dtect -ve or +ve
+ * main - generate random numbers to detect -ve or +ve
  *
  * Return: always (0)
  *
@@ -13,7 +13,7 @@ int main(void)
 	n= rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is positive\in", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is ZERO\n", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
